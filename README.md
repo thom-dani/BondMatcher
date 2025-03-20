@@ -24,7 +24,7 @@ echo 'export PYTHONPATH=$PYTHONPATH:$PV_PREFIX/lib/python3.12/site-packages' >> 
 ```
 and 
 ```
-echo 'TTK_PREFIX=$(pwd)/../install' >> ~/.bashrc
+echo 'TTK_PREFIX=$(pwd)/ttk/install' >> ~/.bashrc
 echo 'export PV_PLUGIN_PATH=$TTK_PREFIX/bin/plugins/TopologyToolKit' >> ~/.bashrc
 echo 'export LD_LIBRARY_PATH=$TTK_PREFIX/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
 echo 'export PYTHONPATH=$PYTHONPATH:$TTK_PREFIX/lib/python3.12/site-packages' >> ~/.bashrc
