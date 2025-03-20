@@ -1,0 +1,9 @@
+NAME
+  ttkSeparatrixGeometricStability
+SOURCES
+  ttkSeparatrixGeometricStability.cpp
+HEADERS
+  ttkSeparatrixGeometricStability.h
+DEPENDS
+  separatrixGeometricStability
+  ttkAlgorithm
