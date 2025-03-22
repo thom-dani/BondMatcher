@@ -70,7 +70,7 @@ This example:
 This reproduces the images from the Figure 8 of the manuscript *"BondMatcher: H-Bond Stability Analysis in Molecular Systems"*. To render the extremum graphs with straight lines (as done in the manuscript), increase the number of iterations of the pipeline entry `TTKGeometrySmoother1` to a sufficiently high value (e.g., > 1,000).
 
 ## Downloading the database
-We contribute a database 4544 electron densities (computed on a `256**3` grid), organized as follows:
+We contribute a database 4544 electron densities (computed on a `256**3` grid, see the companion manuscript for futher details), organized as follows:
 
 - Two pathways of proton tunneling for the *Prism* water hexamer:
   - With anti-geared motion (256 steps)
@@ -85,3 +85,10 @@ We contribute a database 4544 electron densities (computed on a `256**3` grid), 
     ```
     tar xvzf W6_drop1_sp_along_tunneling_pathways.tar.gz
     ```
+
+- 48 vibrational perturbations for the *Ring*, *Book*, *Cage* and *Prism* water hexamers:
+  - *Ring* hexamer:
+    - [Download file 1 (42.9 GB)](https://zenodo.org/records/14911658/files/W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partaa)
+    - [Download file 2 (42.9 GB)](https://zenodo.org/records/14911654/files/W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partab)
+    - [Download file 3 (42.9 GB)](https://zenodo.org/records/14911650/files/W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partac)
+    - [Download file 4 (198.6 MB)](https://zenodo.org/records/14911646/files/W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partad)
