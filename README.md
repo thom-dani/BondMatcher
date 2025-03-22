@@ -67,6 +67,6 @@ This example:
 3. displays the result in ParaView (see the two tabs `Layout #1` and `Layout #2`).
 
 
-This reproduces the images from the Figure 8 of the manuscript *"BondMatcher: H-Bond Stability Analysis in Molecular Systems"*. To render the extremum graphs with straight lines (as done in the paper), increase the number of iterations of the pipeline entry `TTKGeometrySmoother1` to a sufficiently high value (typically > 1,000).
+This reproduces the images from the Figure 8 of the manuscript *"BondMatcher: H-Bond Stability Analysis in Molecular Systems"*. To render the extremum graphs with straight lines (as done in the manuscript), increase the number of iterations of the pipeline entry `TTKGeometrySmoother1` to a sufficiently high value (typically > 1,000).
 
 ## Downloading the database
