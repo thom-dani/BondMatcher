@@ -119,7 +119,7 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     ./separatrixExtraction.sh W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.cdb 512
     ```
 
-- *Book* hexamer:
+  - *Book* hexamer:
     - [Download file 1 (42.9 GB)](https://zenodo.org/records/14911631/files/W6_book_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partaa)
     - [Download file 2 (42.9 GB)](https://zenodo.org/records/14911637/files/W6_book_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partab)
     - [Download file 3 (42.9 GB)](https://zenodo.org/records/14911639/files/W6_book_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partac)
@@ -139,7 +139,7 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     ./separatrixExtraction.sh W6_book_refined_DFT_ScaledRange4.0_Ngeoms21.cdb 512
     ```
 
-- *Cage* hexamer:
+  - *Cage* hexamer:
     - [Download file 1 (42.9 GB)](https://zenodo.org/records/14909192/files/W6_cage_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partaa)
     - [Download file 2 (42.9 GB)](https://zenodo.org/records/14909206/files/W6_cage_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partab)
     - [Download file 3 (42.9 GB)](https://zenodo.org/records/14909210/files/W6_cage_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partac)
@@ -159,7 +159,7 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     ./separatrixExtraction.sh W6_cage_refined_DFT_ScaledRange4.0_Ngeoms21.cdb 512
     ```
 
-- *Prism* hexamer:
+  - *Prism* hexamer:
     - [Download file 1 (42.9 GB)](https://zenodo.org/records/14909151/files/W6_prism_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partaa)
     - [Download file 2 (42.9 GB)](https://zenodo.org/records/14909166/files/W6_prism_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partab)
     - [Download file 3 (42.9 GB)](https://zenodo.org/records/14909176/files/W6_prism_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partac)
