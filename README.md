@@ -104,3 +104,13 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     - [Download file 2 (42.9 GB)](https://zenodo.org/records/14911654/files/W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partab)
     - [Download file 3 (42.9 GB)](https://zenodo.org/records/14911650/files/W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partac)
     - [Download file 4 (198.6 MB)](https://zenodo.org/records/14911646/files/W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partad)
+    - To decompress the files and prepare the corresponding cinema database, move the downloaded files to the `scripts/vibrations` directory. Next, go to the directory `scripts/vibrations`. From there, enter the following command:
+    ```
+    ./prepareCinemaDataBase.sh W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partaa W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partab W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partac W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partad
+    ```
+    This will create a cinema data base of electron densities (in *.vti format) which can be interactively explored within ParaView using the TTK Cinema filters (typically, `TTKCinemaReader` to read the database, followed by `TTKCinemaQuery` to select entries, followed by `TTKCinemaProductReader` to load the selected densities, see the above example).
+    
+    Optionally, to create the cinema database of corresponding extremum graphs, enter the following command (this will take a **LONG** time, if needed decrease the resolution parameter from `512` to lower values):
+    ```
+    ./separatrixExtraction.sh W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.cdb 512
+    ```
