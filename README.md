@@ -74,6 +74,6 @@ We contribute a database 4544 electron densities (computed on a `256**3` grid), 
 
 - Two pathways of proton tunneling for the *Prism* water hexamer:
   - With anti-geared motion (256 steps)
-    - [Download file (32.7 GB)](https://zenodo.org/records/14909099/files/W6_bifdrop_sp_along_tunneling_pathways.tar.gz?download=1)
+    - [Download file (32.7 GB)](https://zenodo.org/records/14909099/files/W6_bifdrop_sp_along_tunneling_pathways.tar.gz)
   - With geared motion (256 steps)
     - [Download file (32.7 GB)](https://zenodo.org/records/14909089/files/W6_drop1_sp_along_tunneling_pathways.tar.gz?download=1)
