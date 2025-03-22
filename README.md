@@ -4,9 +4,11 @@ This repository contains the code and instructions for downloading the data used
 
 ## Summary
 
-[Installation](#installation)
-[Example](#running-an-example)
-[Database](#downloading-the-database)
+- [Installation](#installation)
+
+- [Example](#running-an-example)
+
+- [Database](#downloading-the-database)
 
 ## Installation
 
