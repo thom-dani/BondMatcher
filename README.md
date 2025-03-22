@@ -47,7 +47,7 @@ source ~/.bashrc
 to apply the changes.
 
 
-**4)** At this point, you can launch paraview from the command line with 
+4. At this point, you can launch paraview from the command line with 
 
 ```
 paraview
