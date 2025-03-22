@@ -14,9 +14,6 @@ fi
 DataBaseFile=${DataBaseFile1/.partaa/}
 
 echo "Merging files into $DataBaseFile..."
-
-exit 0
-
 cat $DataBaseFile1 $DataBaseFile2 $DataBaseFile3 $DataBaseFile4 >  $DataBaseFile
 
 echo "Decompressing archive $DataBaseFile..."
