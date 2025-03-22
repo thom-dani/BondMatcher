@@ -2,6 +2,8 @@
 
 This repository contains the code and instructions for downloading the data used for the manuscript *"BondMatcher: H-Bond Stability Analysis in Molecular Systems"*.
 
+These instructions have been tested with a fresh install of Ubuntu 24.04 LTS. Adjustments may be required for other operating systems.
+
 ## Summary
 
 - [Installation](#installation)
@@ -11,8 +13,6 @@ This repository contains the code and instructions for downloading the data used
 - [Database](#downloading-the-database)
 
 ## Installation
-
-With a fresh install of Ubuntu 24.04 LTS
 
 **1)** Download this repository  or run
    
@@ -75,5 +75,13 @@ We contribute a database 4544 electron densities (computed on a `256**3` grid), 
 - Two pathways of proton tunneling for the *Prism* water hexamer:
   - With anti-geared motion (256 steps)
     - [Download file (32.7 GB)](https://zenodo.org/records/14909099/files/W6_bifdrop_sp_along_tunneling_pathways.tar.gz)
+    - To decompress the file, go to the directory where you downloaded it and enter the following command:
+    ```
+    tar xvzf W6_bifdrop_sp_along_tunneling_pathways.tar.gz
+    ```
   - With geared motion (256 steps)
-    - [Download file (32.7 GB)](https://zenodo.org/records/14909089/files/W6_drop1_sp_along_tunneling_pathways.tar.gz?download=1)
+    - [Download file (32.7 GB)](https://zenodo.org/records/14909089/files/W6_drop1_sp_along_tunneling_pathways.tar.gz)
+    - To decompress the file, go to the directory where you downloaded it and enter the following command:
+    ```
+    tar xvzf W6_drop1_sp_along_tunneling_pathways.tar.gz
+    ```
