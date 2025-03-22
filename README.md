@@ -14,19 +14,19 @@ These instructions have been tested with a fresh install of Ubuntu 24.04 LTS. Ad
 
 ## Installation
 
-**1)** Download this repository  or run
+1. Download this repository  or run
    
 ```
  git clone https://github.com/thom-dani/BondMatcher.git
 ```
 
-**2)** At the root of the repository, run
+2. At the root of the repository, run
 
 ```
 ./install.sh
 ```
 
-**3) Optional** : To permanently add the paraview and ttk environment variables to your .bashrc, run
+3. To permanently add the paraview and ttk environment variables to your .bashrc, run
 ```
 echo 'PV_PREFIX=$(pwd)/ttk-paraview/install' >> ~/.bashrc
 echo 'export PATH=$PATH:$PV_PREFIX/bin' >> ~/.bashrc
