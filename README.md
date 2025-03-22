@@ -65,6 +65,8 @@ This example:
 1. loads a database of extremum graphs
 2. computes partial isomorphisms between them as well as the bond occurrence rate
 3. displays the result in ParaView (see the two tabs `Layout #1` and `Layout #2`).
+
+
 This reproduces the images from the Figure 8 of the manuscript *"BondMatcher: H-Bond Stability Analysis in Molecular Systems"*.
 
 ## Downloading the database
