@@ -23,7 +23,6 @@ These instructions have been tested with a fresh install of Ubuntu 24.04 LTS. Ad
 **2)** At the root of the repository, run
 
 ```
-chmod +x install.sh
 ./install.sh
 ```
 
@@ -70,7 +69,8 @@ This example:
 This reproduces the images from the Figure 8 of the manuscript *"BondMatcher: H-Bond Stability Analysis in Molecular Systems"*. To render the extremum graphs with straight lines (as done in the manuscript), increase the number of iterations of the pipeline entry `TTKGeometrySmoother1` to a sufficiently high value (e.g., > 1,000).
 
 ## Downloading the database
-We contribute a database 4544 electron densities (computed on a `256**3` grid, see the companion manuscript for futher details), organized as follows:
+We contribute a database 4544 electron densities (computed on a `256**3` grid,
+around 800 GB of decompressed data, see the companion manuscript for futher details), organized as follows:
 
 - Two pathways of proton tunneling for the *Prism* water hexamer:
   - With anti-geared motion (256 steps)
