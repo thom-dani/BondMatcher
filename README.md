@@ -168,7 +168,7 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     - [Download file 1 (42.9 GB)](https://zenodo.org/records/14909151/files/W6_prism_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partaa)
     - [Download file 2 (42.9 GB)](https://zenodo.org/records/14909166/files/W6_prism_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partab)
     - [Download file 3 (42.9 GB)](https://zenodo.org/records/14909176/files/W6_prism_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partac)
-    - [Download file 4 (215.6 MB)](https://zenodo.org/records/14909184/files/W6_prism_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partad?download=1)
+    - [Download file 4 (215.6 MB)](https://zenodo.org/records/14909184/files/W6_prism_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partad)
     
     To decompress the files and prepare the corresponding cinema database, move the downloaded files to the `scripts/vibrations` directory. Next, go to the directory `scripts/vibrations`. From there, enter the following command:
     ```
