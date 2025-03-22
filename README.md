@@ -80,6 +80,7 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     ./prepareCinemaDataBase.sh W6_bifdrop_sp_along_tunneling_pathways.tar.gz
     ```
     This will create a cinema data base of electron densities (in *.vti format) which can be interactively explored within ParaView using the TTK Cinema filters (typically, `TTKCinemaReader` to read the database, followed by `TTKCinemaQuery` to select entries, followed by `TTKCinemaProductReader` to load the selected densities, see the above example).
+    
     Optionally, to create the cinema database of corresponding extremum graphs, enter the following command (this will take a **LONG** time, if needed decrease the resolution parameter from `512` to lower values):
     ```
     ./separatrixExtraction.sh  W6_bifdrop_sp_along_tunneling_pathways.cdb 512
@@ -91,6 +92,7 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     ./prepareCinemaDataBase.sh W6_drop1_sp_along_tunneling_pathways.tar.gz
     ```
     This will create a cinema data base of electron densities (in *.vti format) which can be interactively explored within ParaView using the TTK Cinema filters (typically, `TTKCinemaReader` to read the database, followed by `TTKCinemaQuery` to select entries, followed by `TTKCinemaProductReader` to load the selected densities, see the above example).
+    
     Optionally, to create the cinema database of corresponding extremum graphs, enter the following command (this will take a **LONG** time, if needed decrease the resolution parameter from `512` to lower values):
     ```
     ./separatrixExtraction.sh  W6_drop1_sp_along_tunneling_pathways.cdb 512

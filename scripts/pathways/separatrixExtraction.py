@@ -62,7 +62,7 @@ start_datavti = XMLPartitionedImageDataReader(FileName=[inputPath])
 
 tTKTopologicalSimplificationByPersistence1 = TTKTopologicalSimplificationByPersistence(Input=start_datavti)
 tTKTopologicalSimplificationByPersistence1.InputArray = ['POINTS', 'opposite']
-tTKTopologicalSimplificationByPersistence1.PersistenceThreshold = 1e-03
+tTKTopologicalSimplificationByPersistence1.PersistenceThreshold = 2e-05
 
 # create a new 'TTK MorseSmaleComplex'
 tTKMorseSmaleComplex1 = TTKMorseSmaleComplex(registrationName='TTKMorseSmaleComplex1', Input=tTKTopologicalSimplificationByPersistence1)
