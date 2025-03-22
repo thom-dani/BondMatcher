@@ -1,6 +1,6 @@
 # BondMatcher: H-Bond Stability Analysis in Molecular Systems
 
-This repository contains the code and instructions for downloading the data used for the manuscript "BondMatcher: H-Bond Stability Analysis in Molecular Systems".
+This repository contains the code and instructions for downloading the data used for the manuscript *"BondMatcher: H-Bond Stability Analysis in Molecular Systems"*.
 
 ## Summary
 
@@ -56,5 +56,15 @@ paraview
 or use the following scripts to automatically run the examples.
 
 ## Running an example
+To run the provided example, first, go to the `example` directory (this is important as all paths are stored in the example file relatively to that directory).
+Next, enter the following command:
+```
+paraview example.pvsm
+```
+This example:
+1. loads a database of extremum graphs
+2. computes partial isomorphisms between them as well as the bond occurrence rate
+3. displays the result in ParaView (see the two tabs `Layout #1` and `Layout #2`).
+This reproduces the images from the Figure 8 of the manuscript *"BondMatcher: H-Bond Stability Analysis in Molecular Systems"*.
 
 ## Downloading the database
