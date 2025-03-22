@@ -1,3 +1,7 @@
+# BondMatcher: H-Bond Stability Analysis in Molecular Systems
+
+This repository contains the code and instructions for downloading the data used for the manuscript "BondMatcher: H-Bond Stability Analysis in Molecular Systems".
+
 ## Step by step installation
 
 With a fresh install of Ubuntu 24.04 LTS
