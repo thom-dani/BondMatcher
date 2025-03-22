@@ -69,7 +69,7 @@ This example:
 This reproduces the images from the Figure 8 of the manuscript *"BondMatcher: H-Bond Stability Analysis in Molecular Systems"*. To render the extremum graphs with straight lines (as done in the manuscript), increase the number of iterations of the pipeline entry `TTKGeometrySmoother1` to a sufficiently high value (e.g., > 1,000).
 
 ## Downloading the database
-We contribute a database 4544 electron densities (computed on a `256**3` grid,
+We contribute a database of 4544 electron densities (computed on a `256**3` grid,
 around 800 GB of decompressed data, see the companion manuscript for futher details). It is organized as follows:
 
 - Two pathways of proton tunneling for the *Prism* water hexamer:
@@ -80,6 +80,10 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     ./prepareCinemaDataBase.sh W6_bifdrop_sp_along_tunneling_pathways.tar.gz
     ```
     This will create a cinema data base of electron densities (in *.vti format) which can be interactively explored within ParaView using the TTK Cinema filters (typically, `TTKCinemaReader` to read the database, followed by `TTKCinemaQuery` to select entries, followed by `TTKCinemaProductReader` to load the selected densities, see the above example).
+    Optionally, to create the cinema database of corresponding extremum graphs, enter the following command (this will take a **LONG** time, if needed decrease the resolution parameter from `512` to lower values):
+    ```
+    ./separatrixExtraction.sh  W6_bifdrop_sp_along_tunneling_pathways.cdb 512
+    ```
   - With geared motion (256 steps)
     - [Download file (32.7 GB)](https://zenodo.org/records/14909089/files/W6_drop1_sp_along_tunneling_pathways.tar.gz)
     - To decompress the file and prepare the corresponding cinema database, move the downloaded file to the `scripts/pathways` directory. Next, go to the directory `scripts/pathways`. From there, enter the following command:
@@ -87,6 +91,10 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     ./prepareCinemaDataBase.sh W6_drop1_sp_along_tunneling_pathways.tar.gz
     ```
     This will create a cinema data base of electron densities (in *.vti format) which can be interactively explored within ParaView using the TTK Cinema filters (typically, `TTKCinemaReader` to read the database, followed by `TTKCinemaQuery` to select entries, followed by `TTKCinemaProductReader` to load the selected densities, see the above example).
+    Optionally, to create the cinema database of corresponding extremum graphs, enter the following command (this will take a **LONG** time, if needed decrease the resolution parameter from `512` to lower values):
+    ```
+    ./separatrixExtraction.sh  W6_drop1_sp_along_tunneling_pathways.cdb 512
+    ```
 
 - 48 vibrational perturbations for the *Ring*, *Book*, *Cage* and *Prism* water hexamers:
   - *Ring* hexamer:
