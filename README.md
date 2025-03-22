@@ -75,7 +75,8 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
 - Two pathways of proton tunneling for the *Prism* water hexamer:
   - With anti-geared motion (256 steps)
     - [Download file (32.7 GB)](https://zenodo.org/records/14909099/files/W6_bifdrop_sp_along_tunneling_pathways.tar.gz)
-    - To decompress the file and prepare the corresponding cinema database, move the downloaded file to the `scripts/pathways` directory. Next, go to the directory `scripts/pathways`. From there, enter the following command:
+    
+    To decompress the file and prepare the corresponding cinema database, move the downloaded file to the `scripts/pathways` directory. Next, go to the directory `scripts/pathways`. From there, enter the following command:
     ```
     ./prepareCinemaDataBase.sh W6_bifdrop_sp_along_tunneling_pathways.tar.gz
     ```
@@ -87,7 +88,8 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     ```
   - With geared motion (256 steps)
     - [Download file (32.7 GB)](https://zenodo.org/records/14909089/files/W6_drop1_sp_along_tunneling_pathways.tar.gz)
-    - To decompress the file and prepare the corresponding cinema database, move the downloaded file to the `scripts/pathways` directory. Next, go to the directory `scripts/pathways`. From there, enter the following command:
+    
+    To decompress the file and prepare the corresponding cinema database, move the downloaded file to the `scripts/pathways` directory. Next, go to the directory `scripts/pathways`. From there, enter the following command:
     ```
     ./prepareCinemaDataBase.sh W6_drop1_sp_along_tunneling_pathways.tar.gz
     ```
@@ -104,7 +106,8 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     - [Download file 2 (42.9 GB)](https://zenodo.org/records/14911654/files/W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partab)
     - [Download file 3 (42.9 GB)](https://zenodo.org/records/14911650/files/W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partac)
     - [Download file 4 (198.6 MB)](https://zenodo.org/records/14911646/files/W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partad)
-    - To decompress the files and prepare the corresponding cinema database, move the downloaded files to the `scripts/vibrations` directory. Next, go to the directory `scripts/vibrations`. From there, enter the following command:
+    
+    To decompress the files and prepare the corresponding cinema database, move the downloaded files to the `scripts/vibrations` directory. Next, go to the directory `scripts/vibrations`. From there, enter the following command:
     ```
     ./prepareCinemaDataBase.sh \
       W6_ring_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partaa \
@@ -124,7 +127,8 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     - [Download file 2 (42.9 GB)](https://zenodo.org/records/14911637/files/W6_book_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partab)
     - [Download file 3 (42.9 GB)](https://zenodo.org/records/14911639/files/W6_book_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partac)
     - [Download file 4 (42.4 MB)](https://zenodo.org/records/14911644/files/W6_book_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partad)
-    - To decompress the files and prepare the corresponding cinema database, move the downloaded files to the `scripts/vibrations` directory. Next, go to the directory `scripts/vibrations`. From there, enter the following command:
+    
+    To decompress the files and prepare the corresponding cinema database, move the downloaded files to the `scripts/vibrations` directory. Next, go to the directory `scripts/vibrations`. From there, enter the following command:
     ```
     ./prepareCinemaDataBase.sh \
       W6_book_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partaa \
@@ -144,7 +148,8 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     - [Download file 2 (42.9 GB)](https://zenodo.org/records/14909206/files/W6_cage_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partab)
     - [Download file 3 (42.9 GB)](https://zenodo.org/records/14909210/files/W6_cage_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partac)
     - [Download file 4 (145.2 MB)](https://zenodo.org/records/14909213/files/W6_cage_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partad)
-    - To decompress the files and prepare the corresponding cinema database, move the downloaded files to the `scripts/vibrations` directory. Next, go to the directory `scripts/vibrations`. From there, enter the following command:
+    
+    To decompress the files and prepare the corresponding cinema database, move the downloaded files to the `scripts/vibrations` directory. Next, go to the directory `scripts/vibrations`. From there, enter the following command:
     ```
     ./prepareCinemaDataBase.sh \
       W6_cage_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partaa \
@@ -164,7 +169,8 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     - [Download file 2 (42.9 GB)](https://zenodo.org/records/14909166/files/W6_prism_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partab)
     - [Download file 3 (42.9 GB)](https://zenodo.org/records/14909176/files/W6_prism_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partac)
     - [Download file 4 (215.6 MB)](https://zenodo.org/records/14909184/files/W6_prism_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partad?download=1)
-    - To decompress the files and prepare the corresponding cinema database, move the downloaded files to the `scripts/vibrations` directory. Next, go to the directory `scripts/vibrations`. From there, enter the following command:
+    
+    To decompress the files and prepare the corresponding cinema database, move the downloaded files to the `scripts/vibrations` directory. Next, go to the directory `scripts/vibrations`. From there, enter the following command:
     ```
     ./prepareCinemaDataBase.sh \
       W6_prism_refined_DFT_ScaledRange4.0_Ngeoms21.tar.gz.partaa \
