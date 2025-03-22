@@ -70,3 +70,8 @@ This example:
 This reproduces the images from the Figure 8 of the manuscript *"BondMatcher: H-Bond Stability Analysis in Molecular Systems"*. To render the extremum graphs with straight lines (as done in the manuscript), increase the number of iterations of the pipeline entry `TTKGeometrySmoother1` to a sufficiently high value (e.g., > 1,000).
 
 ## Downloading the database
+We contribute a database 4544 electron densities (computed on a `256**3` grid), organized as follows:
+
+- Two pathways of proton tunneling for the *Prism* water hexamer:
+  - With anti-geared motion (256 steps)
+  - With geared motion (256 steps)
