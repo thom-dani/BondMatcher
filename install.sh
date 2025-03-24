@@ -5,6 +5,7 @@
 sudo apt install -y cmake ninja-build libboost-system-dev libopengl-dev libxcursor-dev
 sudo apt install -y qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools qttools5-dev qtxmlpatterns5-dev-tools libqt5x11extras5-dev libqt5svg5-dev qttools5-dev libqt5x11extras5-dev libqt5svg5-dev qtxmlpatterns5-dev-tools
 sudo apt install -y libcgal-dev
+sudo apt install libsqlite3-dev
 sudo apt install -y python3-sklearn python3-pip
 sudo apt install -y git
 sudo apt install build-essential
@@ -31,7 +32,7 @@ cd ../../ttk
 mkdir build
 cd build
 paraviewPath=`pwd`/../../ttk-paraview/install/lib/cmake/paraview-5.13
-cmake -G Ninja -DCMAKE_INSTALL_PREFIX=../install -DParaView_DIR=$paraviewPath ..
+cmake -G Ninja -DCMAKE_INSTALL_PREFIX=../install -DParaView_DIR=$paraviewPath -DTTK_ENABLE_SQLITE3=1 ..
 ninja install
 
 TTK_PREFIX=`pwd`/../install
