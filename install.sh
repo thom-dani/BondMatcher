@@ -7,6 +7,7 @@ sudo apt install -y qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools qttools5-d
 sudo apt install -y libcgal-dev
 sudo apt install -y python3-sklearn python3-pip
 sudo apt install -y git
+sudo apt install build-essential
 
 pip install umap-learn --break-system-packages
 
