@@ -28,23 +28,16 @@ These instructions have been tested with a fresh install of Ubuntu 24.04 LTS. Ad
 
 3. To permanently add the paraview and ttk environment variables to your .bashrc, run
 ```
-echo 'PV_PREFIX=$(pwd)/ttk-paraview/install' >> ~/.bashrc
-echo 'export PATH=$PATH:$PV_PREFIX/bin' >> ~/.bashrc
-echo 'export LD_LIBRARY_PATH=$PV_PREFIX/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
-echo 'export PYTHONPATH=$PYTHONPATH:$PV_PREFIX/lib/python3.12/site-packages' >> ~/.bashrc
+eval echo 'export PATH=$PATH:$PV_PREFIX/bin' >> ~/.bashrc
+eval echo 'export LD_LIBRARY_PATH=$PV_PREFIX/lib:$TTK_PREFIX/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
+eval echo 'export PYTHONPATH=$PYTHONPATH:$PV_PREFIX/lib/python3.12/site-packages:$TTK_PREFIX/lib/python3.12/site-packages' >> ~/.bashrc
+eval echo 'export PV_PLUGIN_PATH=$TTK_PREFIX/bin/plugins/TopologyToolKit' >> ~/.bashrc
 ```
-and 
-```
-echo 'TTK_PREFIX=$(pwd)/ttk/install' >> ~/.bashrc
-echo 'export PV_PLUGIN_PATH=$TTK_PREFIX/bin/plugins/TopologyToolKit' >> ~/.bashrc
-echo 'export LD_LIBRARY_PATH=$TTK_PREFIX/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
-echo 'export PYTHONPATH=$PYTHONPATH:$TTK_PREFIX/lib/python3.12/site-packages' >> ~/.bashrc
-```
-at the root of this repository and 
+and then  
 ```
 source ~/.bashrc
 ```
-to apply the changes.
+to apply the changes. These commands should be called in the same shell as the one where install.sh was run.
 
 
 4. At this point, you can launch paraview from the command line with 
