@@ -32,7 +32,7 @@ cd ../../ttk
 mkdir build
 cd build
 paraviewPath=`pwd`/../../ttk-paraview/install/lib/cmake/paraview-5.13
-cmake -G Ninja -DCMAKE_INSTALL_PREFIX=../install -DParaView_DIR=$paraviewPath -DTTK_ENABLE_SQLITE3=1 ..
+cmake -G Ninja -DCMAKE_INSTALL_PREFIX=../install -DParaView_DIR=$paraviewPath -DTTK_ENABLE_SQLITE3=1 -DTTK_ENABLE_64BIT_IDS=1 ..
 ninja install
 
 TTK_PREFIX=`pwd`/../install
