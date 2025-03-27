@@ -59,7 +59,7 @@ This example:
 3. displays the result in ParaView (see the two tabs `Layout #1` and `Layout #2`).
 
 
-This reproduces the images from the Figure 8 of the manuscript *"BondMatcher: H-Bond Stability Analysis in Molecular Systems"*. To render the extremum graphs with straight lines (as done in the manuscript), increase the number of iterations of the pipeline entry `TTKGeometrySmoother1` to a sufficiently high value (e.g., > 1,000).
+This reproduces the images from the Figure 7 of the manuscript *"BondMatcher: H-Bond Stability Analysis in Molecular Systems"*. To render the extremum graphs with straight lines (as done in the manuscript), increase the number of iterations of the pipeline entry `TTKGeometrySmoother1` to a sufficiently high value (e.g., > 1,000).
 
 ## Downloading the database
 We contribute a database of 4544 electron densities (computed on a `256**3` grid,
