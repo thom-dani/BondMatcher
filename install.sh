@@ -2,6 +2,7 @@
 
 # Dependencies
 
+sudo apt update
 sudo apt install -y cmake ninja-build libboost-system-dev libopengl-dev libxcursor-dev  
 sudo apt install -y qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools qttools5-dev qtxmlpatterns5-dev-tools libqt5x11extras5-dev libqt5svg5-dev  
 sudo apt install -y libcgal-dev  
@@ -20,7 +21,7 @@ cd paraview
 git checkout v5.13.1
 git submodule update --init --recursive
 mkdir build
-cd ../build
+cd build
 cmake -GNinja -DPARAVIEW_USE_PYTHON=ON -DPARAVIEW_USE_MPI=ON -DVTK_SMP_IMPLEMENTATION_TYPE=TBB -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=../install ..
 ninja install 
 
