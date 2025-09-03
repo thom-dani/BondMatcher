@@ -12,6 +12,8 @@ These instructions have been tested with a fresh install of Ubuntu 24.04 LTS. Ad
 
 - [Database](#downloading-the-database)
 
+- [Reference](#reference)
+
 ## Installation
 
 1. Download this repository  or run
@@ -177,3 +179,12 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     ```
     ./separatrixExtraction.sh W6_prism_refined_DFT_ScaledRange4.0_Ngeoms21.cdb 512
     ```
+
+
+
+## Reference
+[BondMatcher: H-Bond Stability Analysis in Molecular Systems](https://arxiv.org/abs/2504.03205)
+
+Thomas Daniel, Malgorzata Olejniczak, Julien Tierny.
+
+IEEE Transactions on Visualization and Computer Graphics (Proc. of IEEE VIS 2025)
