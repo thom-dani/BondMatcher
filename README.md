@@ -1,6 +1,6 @@
 # BondMatcher: H-Bond Stability Analysis in Molecular Systems
 
-This repository contains the code and instructions for downloading the data used for the manuscript *"BondMatcher: H-Bond Stability Analysis in Molecular Systems"*.
+This repository contains the code and instructions for downloading the data used for the manuscript [BondMatcher: H-Bond Stability Analysis in Molecular Systems](https://arxiv.org/abs/2504.03205).
 
 These instructions have been tested with a fresh install of Ubuntu 24.04 LTS. Adjustments may be required for other operating systems.
 
@@ -11,6 +11,8 @@ These instructions have been tested with a fresh install of Ubuntu 24.04 LTS. Ad
 - [Example](#running-an-example)
 
 - [Database](#downloading-the-database)
+
+- [Reference](#reference)
 
 ## Installation
 
@@ -25,22 +27,30 @@ These instructions have been tested with a fresh install of Ubuntu 24.04 LTS. Ad
 ```
 ./install.sh
 ```
-
-3. To permanently add the paraview and ttk environment variables to your .bashrc, run
+3. To setup the the paraview and ttk environment variables in the current shell, run
 ```
-eval echo 'export PATH=$PATH:$PV_PREFIX/bin' >> ~/.bashrc
-eval echo 'export LD_LIBRARY_PATH=$PV_PREFIX/lib:$TTK_PREFIX/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
-eval echo 'export PYTHONPATH=$PYTHONPATH:$PV_PREFIX/lib/python3.12/site-packages:$TTK_PREFIX/lib/python3.12/site-packages' >> ~/.bashrc
-eval echo 'export PV_PLUGIN_PATH=$TTK_PREFIX/bin/plugins/TopologyToolKit' >> ~/.bashrc
+export PATH=$PATH:$(pwd)/paraview/install/bin
+export LD_LIBRARY_PATH=$(pwd)/paraview/install/lib:$(pwd)/ttk/install/lib:$LD_LIBRARY_PATH
+export PYTHONPATH=$PYTHONPATH:$(pwd)/paraview/install/lib/python3.12/site-packages:$(pwd)/ttk/install/lib/python3.12/site-packages
+export PV_PLUGIN_PATH=$(pwd)/ttk/install/bin/plugins/TopologyToolKit
+
+```
+4. To permanently add the paraview and ttk environment variables to your .bashrc, run
+```
+echo "export PATH=\$PATH:$(pwd)/paraview/install/bin" >> ~/.bashrc
+echo "export LD_LIBRARY_PATH=$(pwd)/paraview/install/lib:$(pwd)/ttk/install/lib:\$LD_LIBRARY_PATH" >> ~/.bashrc
+echo "export PYTHONPATH=\$PYTHONPATH:$(pwd)/paraview/install/lib/python3.12/site-packages:$(pwd)/ttk/install/lib/python3.12/site-packages" >> ~/.bashrc
+echo "export PV_PLUGIN_PATH=$(pwd)/ttk/install/bin/plugins/TopologyToolKit" >> ~/.bashrc
+
 ```
 and then  
 ```
 source ~/.bashrc
 ```
-to apply the changes. These commands should be called in the same shell as the one where install.sh was run.
+to apply the changes. These commands should be called at the root of the repository.
 
 
-4. At this point, you can launch paraview from the command line with 
+5. At this point, you can launch paraview from the command line with 
 
 ```
 paraview
@@ -177,3 +187,12 @@ around 800 GB of decompressed data, see the companion manuscript for futher deta
     ```
     ./separatrixExtraction.sh W6_prism_refined_DFT_ScaledRange4.0_Ngeoms21.cdb 512
     ```
+
+
+
+## Reference
+[BondMatcher: H-Bond Stability Analysis in Molecular Systems](https://arxiv.org/abs/2504.03205)
+
+Thomas Daniel, Malgorzata Olejniczak, Julien Tierny.
+
+IEEE Transactions on Visualization and Computer Graphics (Proc. of IEEE VIS 2025)
